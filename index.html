@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="icon" type="image/png" href="logoImg.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <title>Coffe</title>
+</head>
+<body style="background-color: #3C2A21;">
+
+  <nav class="navbar navbar-expand-lg">
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav" style="margin-left: 140px; margin-top: 10px;">
+      <ul class="navbar-nav">
+          <li class="nav-item">
+            <img src="logo.png" style="height: 50px;">
+          </li>
+          <li class="nav-item" style="margin-left: 500px; margin-top: 8px;">
+            <a class="nav-link text-light" href="#" id="navitem" style="background-color: #1A120B; border-radius: 25px;">HOME</a>
+          </li>
+          <li class="nav-item" style="margin-top: 8px;">
+            <a class="nav-link text-light" href="#" id="navitem">SHOP</a>
+          </li>
+          <li class="nav-item" style="margin-top: 8px;">
+            <a class="nav-link text-light" href="#" id="navitem">BLOG</a>
+          </li>
+          <li class="nav-item" style="margin-top: 8px;">
+            <a class="nav-link text-light" href="#" id="navitem">SOBRE</a>
+          </li>
+      </ul>
+    </div>
+
+  </nav>
+
+  <div class="container" id="cont" style="padding-bottom: 10px;">
+
+  <div class="row">
+    <div class="col-sm" id="contText">
+      <h1 class="text-light" style="font-family: Bebas Neue; font-size: 100px; margin-top: 130px; line-height: 100px;">Você consome café ?</h1>
+      <p class="text-justify text-light" style="font-family: Nunito; font-size: 25px; padding-bottom: 10px;"> Sabia qual a quantidade ideal para o consumo diário, e quais problemas pode causar o alto consumo.</p>
+      <input type="button" value="Saiba Mais" class="btn btn-outline-light" style="padding-left: 15px; padding-right: 15px; font-family: Nunito;">
+    </div>
+    <div class="col-sm" id="contImg">
+      <img src="coffee.png" style="width: 500px; height: 500px; margin-left: 50px; margin-top: 80px; position: absolute;">
+      <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" style="width: 600px; height: 600px; margin-top: 20px;">
+        <path fill="#9F8772" d="M46.2,-75.3C59.3,-72.5,68.8,-58.9,75.7,-44.5C82.7,-30.1,87.1,-15.1,86.6,-0.3C86.1,14.5,80.7,29,69.7,36.3C58.6,43.5,41.9,43.6,29.3,50.5C16.8,57.5,8.4,71.4,-1,73.1C-10.4,74.8,-20.8,64.4,-34.5,58.1C-48.3,51.9,-65.4,49.8,-73,40.8C-80.6,31.8,-78.6,15.9,-79.1,-0.3C-79.6,-16.4,-82.5,-32.9,-75.5,-43C-68.6,-53.1,-51.8,-56.9,-37.6,-59C-23.4,-61.1,-11.7,-61.4,2.5,-65.7C16.6,-69.9,33.2,-78,46.2,-75.3Z" transform="translate(100 100)" />
+      </svg>
+    </div>
+  </div>
+  </div>
+
+  <div id="cont" style="background-color: #1A120B; padding-bottom: 70px;">
+    <div class="container">
+    <div class="row">
+      <div class="col-sm" id="contImg">
+        <img src="cup.png" style="width: 500px; height: 500px; margin-top: 80px; margin-left: 20px; position: absolute;">
+        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" style="width: 600px; height: 600px; margin-top: 20px;">
+          <path fill="#9F8772" d="M46.2,-75.3C59.3,-72.5,68.8,-58.9,75.7,-44.5C82.7,-30.1,87.1,-15.1,86.6,-0.3C86.1,14.5,80.7,29,69.7,36.3C58.6,43.5,41.9,43.6,29.3,50.5C16.8,57.5,8.4,71.4,-1,73.1C-10.4,74.8,-20.8,64.4,-34.5,58.1C-48.3,51.9,-65.4,49.8,-73,40.8C-80.6,31.8,-78.6,15.9,-79.1,-0.3C-79.6,-16.4,-82.5,-32.9,-75.5,-43C-68.6,-53.1,-51.8,-56.9,-37.6,-59C-23.4,-61.1,-11.7,-61.4,2.5,-65.7C16.6,-69.9,33.2,-78,46.2,-75.3Z" transform="translate(100 100)" />
+        </svg>
+      </div>
+      <div class="col-sm" id="contText">
+        <h1 class="text-light" style="font-family: Bebas Neue; font-size: 100px; margin-top: 130px; line-height: 100px;">Melhores marcas de café do Brasil.</h1>
+        <p class="text-justify text-light" style="font-family: Nunito; font-size: 25px; padding-bottom: 10px;"> Veja o ranking das melhores marcas de café do Brasil de acordo com o proteste.</p>
+        <input type="button" value="Saiba Mais" class="btn btn-outline-light" style="padding-left: 15px; padding-right: 15px; font-family: Nunito;">
+      </div>
+    </div>
+    </div>
+    </div>
+
+    <div id="cont" style="background-color: #3C2A21; padding-bottom: 70px;">
+      <div class="container">
+      <div class="row">
+        <div class="col-sm" id="contText">
+          <h1 class="text-light" style="font-family: Bebas Neue; font-size: 100px; margin-top: 130px; line-height: 100px;"> Os dois tipos de café. </h1>
+          <p class="text-justify text-light" style="font-family: Nunito; font-size: 25px; padding-bottom: 10px;"> Existem duas principais espécies de plantas que dão origem aos grãos de café. </p>
+          <input type="button" value="Saiba Mais" class="btn btn-outline-light" style="padding-left: 15px; padding-right: 15px; font-family: Nunito;">
+        </div>
+        <div class="col-sm" id="contImg">
+          <img src="espressoMachine.png" style="width: 500px; height: 500px; margin-top: 80px; margin-left: 20px; position: absolute;">
+          <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" style="width: 600px; height: 600px; margin-top: 20px;">
+            <path fill="#9F8772" d="M46.2,-75.3C59.3,-72.5,68.8,-58.9,75.7,-44.5C82.7,-30.1,87.1,-15.1,86.6,-0.3C86.1,14.5,80.7,29,69.7,36.3C58.6,43.5,41.9,43.6,29.3,50.5C16.8,57.5,8.4,71.4,-1,73.1C-10.4,74.8,-20.8,64.4,-34.5,58.1C-48.3,51.9,-65.4,49.8,-73,40.8C-80.6,31.8,-78.6,15.9,-79.1,-0.3C-79.6,-16.4,-82.5,-32.9,-75.5,-43C-68.6,-53.1,-51.8,-56.9,-37.6,-59C-23.4,-61.1,-11.7,-61.4,2.5,-65.7C16.6,-69.9,33.2,-78,46.2,-75.3Z" transform="translate(100 100)" />
+          </svg>
+        </div>
+      </div>
+      </div>
+      </div>
+      
+      <div id="rodape" style="padding-bottom: 20px; background-color: #1A120B;">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm">
+            </div>
+            <div class="col-sm" style="font-size: 30px; font-family: Nunito; color: #9F8772; text-align: center; margin-top: 20px;">
+              Feito por: Otávio Sudano
+            </div>
+        </div>
+      </div>
+
+            
+</body>
+</html>
