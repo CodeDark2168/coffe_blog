@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@700&family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300&display=swap');
+
+#navitem{
+    font-family: Nunito;
+    font-size: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
